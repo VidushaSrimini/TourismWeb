@@ -1,0 +1,64 @@
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/aboutStyle.css" />
+</head>
+
+<body>
+
+        <!--Navigation Bar-->
+        <section class="nav-bar">
+            <div class="logo">About Us</div>
+            <ul class="menu">
+                <li><a href="home.html">home</a></li>
+                <li><a href="heritage.html">heritage</a></li>
+                <li><a href="hotelBooking.html">hotel</a></li>
+                <li><a href="galary.html">gallery</a></li>
+                <li><a href="about.html">about us</a></li>
+            </ul>
+
+        </section>
+		
+        <!--About Content-->
+        <section class="about">
+            <div class="about-text">
+                <h1>About Our Site</h1>
+                <p>Welcome to our website, your ultimate guide to discovering the enchanting city of Matara, Sri Lanka. 
+				We are dedicated to providing you with comprehensive and reliable information to help you plan an 
+				unforgettable trip to this captivating destination.</p>
+				<h2>Our Mission</h2>
+				<p>our mission is to inspire and assist travelers in experiencing the rich cultural heritage, 
+				breathtaking natural landscapes, and captivating attractions that Matara has to offer. 
+				We aim to be your go-to resource for all things Matara, ensuring you have a memorable and fulfilling travel experience.</p>
+			</div>
+			<div class="about-img">
+                <img src="Images/about_2.png">
+            </div>
+			</section>
+			<section class="about">
+				<div class="about-text">
+					<h2>Contact Us</h2>
+					<form id="contactForm">
+						<div class="input-box">
+							<input type="text" class="input-text" placeholder="Enter your name">
+						</div>
+						<div class="input-box">
+							<input type="text" class="input-text" placeholder="Enter your email">
+						</div>
+						<div class="message-box">
+							<input type="text" class="input-text" placeholder="Enter your message">
+						</div>
+						<div>
+							<input type="button" class="button" onclick="clearDetails()" value="Send Now" >
+						</div>
+					</form>
+					<script>
+						function clearDetails() {
+						  document.getElementById("contactForm").reset();
+						}
+					</script>
+				</div>
+			</section>
+</body>

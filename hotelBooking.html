@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/hotelnew.css" />
+    
+       
+        <!--Navigation Bar-->
+        <section class="nav-bar">
+            <div class="logo">Hotel Booking</div>
+            <ul class="menu">
+                <li><a href="home.html">home</a></li>
+                <li><a href="heritage.html">heritage</a></li>
+                <li><a href="hotelBooking.html">hotel</a></li>
+                <li><a href="galary.html">gallery</a></li>
+                <li><a href="about.html">about us</a></li>
+            </ul>
+
+        </section>
+        
+    </head>
+    
+    <body>
+        <div class="container">
+        <h1 class="title"> Customer Information</h1>
+        <form method="post" action="" class="frm">
+        <table class="tabl">
+            
+            <tr>
+            <td>First Name</td>
+            <td class="form">:</td> 
+            <td><input type="text" name="fName"
+        value="Enter your first name" maxlength="30" size=30></td>
+            </tr>
+            
+           <tr>
+            <td>Last Name</td> 
+            <td class="form">:</td>
+            <td><input type="text" name="lName"
+        value="Enter your last name" maxlength="30" size=30></td>
+            </tr>
+        
+            
+           <tr>
+            <td>Gender</td>
+            <td class="form">:</td>
+            <td><input type="radio" name="gender"
+                value="Male"class="radio">Male<input type="radio" name="gender"
+                value="Female"  class="radio">Female</td>
+              
+            </tr> 
+           
+            
+            <tr>
+                <td>Email</td>
+                <td class="form">:</td>
+                <td><input type="email" name="Email"
+        value="Enter your email address"></td>
+            </tr>
+           
+            
+            <tr>
+            <td>Select Nationality</td>
+                <td class="form">:</td>
+                <td id="natio"><input type="checkbox" name="nationality" value="Sri Lankan " class="radio">Sri lankan 
+                    <input type="checkbox" name="nationality" value=" Non Sri Lankan"> Non Sri lankan</td>
+            </tr>
+           
+            
+            <tr>
+                <td>Flexibility Dates</td>
+                <td class="form">:</td>
+                <td><input type="checkbox" name="Days" value="Days"></td>
+            </tr>
+
+            <tr>
+                <td> <select name="Adult"><option value="1">Adult</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    </select></td>
+                    
+                    <td> <select name="Children"><option value="1">Children</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option></select></td>
+    
+                        <td><select name="Rooms">
+                            <option value="room">Rooms</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select></td>
+                </tr>
+            
+            <tr>
+            <td><input type="Submit" name="submit" value="SUBMIT"></td>
+            <td><input type="reset" name="reset" value="RESET"></td>
+            </tr>
+            </table> 
+            
+        </form>
+    </div>
+    </body>
+    
+</html> 
